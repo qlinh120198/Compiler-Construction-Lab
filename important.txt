@@ -1,0 +1,4 @@
+Compile indexes
+Assign statement
+Compile condition
+...
