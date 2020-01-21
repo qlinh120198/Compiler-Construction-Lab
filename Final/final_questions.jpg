@@ -1,0 +1,29 @@
+De 1
+  1. type T = INTEGER => type T = :
+  2. ERR_INVALID_ARGUMENTS_INCONSISTENCY. Error from semantics.
+
+De 2
+  1. Function F(n : Integer) => F(n : X)
+  2. No, because until semantic analyser, the total size of an array is not checked => no error
+
+De 3
+  1. Function F(n : Integer) => F(n : :)
+  2. lookupObject looks for outer scope as well, where findObject only finds in current scope
+
+De 4
+  1. Change to CALL KW to sth else 
+  2. Global functions and procedures like WRITELN WRITEC, ...
+
+De 7
+  1. 
+  2. ERR_INVALIDCHARCONSTANT,
+     ERR_INVALIDSYMBOL,
+     ERR_ENDOFCOMMENT,
+
+De 8
+  1. if n = 1 to if n : 1
+  2. ??? May be the (**) ?
+
+De 9
+  1. if n = 1 to if ) = 1
+  2. Two types are equal if their type classes are equal, checked by checkTypeEquality functions

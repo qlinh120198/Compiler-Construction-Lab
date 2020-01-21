@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1568446553 source:f:\cc_lab\week1\scanner\scanner\charcode.c
+	"charcode.h"
+
+1568446570 f:\cc_lab\week1\scanner\scanner\charcode.h
+
+1568446586 source:f:\cc_lab\week1\scanner\scanner\error.c
+	<stdio.h>
+	<stdlib.h>
+	"error.h"
+
+1568447200 f:\cc_lab\week1\scanner\scanner\error.h
+
+1568446679 source:f:\cc_lab\week1\scanner\scanner\reader.c
+	<stdio.h>
+	"reader.h"
+
+1568446693 f:\cc_lab\week1\scanner\scanner\reader.h
+
+1568446711 source:f:\cc_lab\week1\scanner\scanner\token.c
+	<stdlib.h>
+	<ctype.h>
+	"token.h"
+
+1568446723 f:\cc_lab\week1\scanner\scanner\token.h
+

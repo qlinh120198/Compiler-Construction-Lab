@@ -1,7 +1,0 @@
-1) Cai gi khong can khong can khai bao cung duoc dung?
--
-
-Neu ham xuat hien o ve trai, chi xuat hien trong 1 th, do la lenh return
-=> Check LValueIdent => Compare vs owner
-
-Owner vs outer khac nhau nhu nao 
